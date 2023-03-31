@@ -1,13 +1,19 @@
 An example nginx config to enable quick spiking.  Uses docker compose to get up and running with no other dependencies.
 
-To start nginx:
+To start nginx in the background:
 
 ```
-docker-compose up
+./up
 ```
 
 To reload config:
 
 ```
 ./reload
+```
+
+To stop nginx:
+
+```
+./down
 ```
